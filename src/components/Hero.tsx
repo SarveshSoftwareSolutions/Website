@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-slate-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto"
           >
-            Traceability • PLC Connectors • Cloud Solutions
+             Custom Software • Traceability • Cloud Solutions
           </motion.p>
 
           <motion.p
