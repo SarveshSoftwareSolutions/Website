@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import ContactForm from '../components/ContactForm';
 import {
   MapPinIcon,
@@ -26,7 +26,8 @@ const Contact: React.FC = () => {
   icon: <EnvelopeIcon className="h-6 w-6" />,
   title: 'Email',
   content: (
-    <a 
+    <a style={{color:"black"}}
+    
       href="mailto:sarvesh@sarveshsoftwaresolutions.com" 
       className="break-all text-blue-600 hover:underline"
     >
