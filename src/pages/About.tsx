@@ -32,7 +32,7 @@ const About: React.FC = () => {
 
   const team = [
     {
-      name: 'Alex Rodriguez',
+      name: 'Silambarasan ',
       role: 'Automation Engineer',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face',
       bio: 'Expert in PLC systems with 10+ years in industrial automation and manufacturing processes.'

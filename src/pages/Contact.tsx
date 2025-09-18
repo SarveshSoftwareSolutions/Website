@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
       icon: <PhoneIcon className="h-6 w-6" />,
       title: 'Phone',
       content: '+91-93448-21040',
-      subContent: 'Mon-Fri 9AM-6PM IST'
+      subContent: 'Mon-Sat 10AM-6PM IST'
     },
    {
   icon: <EnvelopeIcon className="h-6 w-6" />,
