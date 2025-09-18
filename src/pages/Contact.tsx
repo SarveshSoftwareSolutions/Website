@@ -22,12 +22,20 @@ const Contact: React.FC = () => {
       content: '+91-93448-21040',
       subContent: 'Mon-Fri 9AM-6PM IST'
     },
-    {
-      icon: <EnvelopeIcon className="h-6 w-6" />,
-      title: 'Email',
-      content: 'sarvesh@sarveshsoftwaresolutions.com',
-      subContent: 'We reply within 24 hours'
-    },
+   {
+  icon: <EnvelopeIcon className="h-6 w-6" />,
+  title: 'Email',
+  content: (
+    <a 
+      href="mailto:sarvesh@sarveshsoftwaresolutions.com" 
+      className="break-all text-blue-600 hover:underline"
+    >
+      sarvesh@sarveshsoftwaresolutions.com
+    </a>
+  ),
+  subContent: 'We reply within 24 hours'
+},
+
     {
       icon: <ClockIcon className="h-6 w-6" />,
       title: 'Support',
