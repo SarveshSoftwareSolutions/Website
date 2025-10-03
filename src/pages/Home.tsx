@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   const services = [
     {
       title: 'Traceability Software',
-      description: 'Track every part from production to delivery with complete visibility.',
+      description: 'Track every parts from production to delivery with complete visibility.',
       icon: <ChartBarIcon className="h-12 w-12" />,
       features: ['Real-time tracking', 'Quality assurance', 'Compliance reporting']
     },
