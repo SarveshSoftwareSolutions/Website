@@ -48,8 +48,8 @@ const Home: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'John Smith',
-      company: 'Manufacturing Corp',
+      name: 'Srinivasan',
+      company: 'Delphi TVS',
       text: 'IndustrialTech transformed our production visibility. We can now track every component in real-time.',
       rating: 5
     },

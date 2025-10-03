@@ -11,7 +11,7 @@ import {
 const About: React.FC = () => {
   const timeline = [
     {
-      year: '2024',
+      year: '2020',
       title: 'Founded',
       description: 'Started with a vision to digitize industrial operations',
       icon: <RocketLaunchIcon className="h-6 w-6" />
@@ -228,7 +228,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-green-50 dark:bg-gray-800">
+      {/* <section className="py-20 bg-green-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -259,7 +259,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

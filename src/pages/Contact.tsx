@@ -26,10 +26,10 @@ const Contact: React.FC = () => {
   icon: <EnvelopeIcon className="h-6 w-6" />,
   title: 'Email',
   content: (
-    <a style={{color:"black"}}
-    
+    <a style={{fontSize:'13px', marginLeft:'-10px'}}
+
       href="mailto:sarvesh@sarveshsoftwaresolutions.com" 
-      className="break-all text-blue-600 hover:underline"
+      
     >
       sarvesh@sarveshsoftwaresolutions.com
     </a>

@@ -189,7 +189,7 @@ const Services: React.FC = () => {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-green-50 dark:bg-gray-800">
+      {/* <section className="py-20 bg-green-50 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -267,7 +267,7 @@ const Services: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
