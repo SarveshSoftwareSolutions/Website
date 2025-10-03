@@ -48,21 +48,33 @@ const Home: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'Srinivasan',
+      name: 'Mr.Jaya Seelan',
       company: 'Delphi TVS',
-      text: 'IndustrialTech transformed our production visibility. We can now track every component in real-time.',
+      text: 'We partnered with Sarvesh Software Solutions to improve our manufacturing process with an automated industrial solution. Their team took the time to understand our specific needs and delivered a reliable, scalable system that significantly reduced downtime and improved our efficiency. What impressed us most was their responsiveness and support during deployment. Highly recommended for any industrial setup looking to modernize operations!',
       rating: 5
     },
     {
-      name: 'Sarah Johnson',
-      company: 'TechFactory Ltd',
-      text: 'Their PLC connector solutions saved us months of development time. Excellent support team.',
+      name: 'Mr.AnandaRaj',
+      company: 'Royal Enfield',
+      text: 'Highly recommend! We needed a scalable SCADA system tailored for our factory, and they delivered a cutting-edge solution. Their deep technical knowledge and ability to adapt to complex requirements really impressed us.',
       rating: 5
     },
     {
-      name: 'Mike Chen',
-      company: 'AutoParts Inc',
-      text: 'The traceability system helped us achieve ISO compliance and improve our quality control.',
+      name: 'Mr.KalyanaRaman',
+      company: 'JBM Auto',
+      text: 'The developers understood our manufacturing process in detail and built a software solution that streamlined our operations. Their project management was spot-on — on time, within budget, and excellent post-launch support.',
+      rating: 5
+    },
+    {
+      name: 'Mr.Mathuresh',
+      company: 'BOSCH',
+      text: 'We partnered with this company to develop a custom industrial monitoring system. Their team was incredibly responsive, met all our deadlines, and delivered a robust solution that integrated perfectly with our existing infrastructure. Most impressive was their cost-efficient approach without compromising on quality.',
+      rating: 5
+    },
+    {
+      name: 'Mr.BalaGanesh',
+      company: 'RANE',
+      text: 'We approached Sarvesh Software Solutions with a complex requirement for a custom software tool tailored to our logistics workflow. Not only did they deliver exactly what we envisioned, but they also added value with insightful suggestions and features we hadn’t considered. Their developers are skilled, communicative, and committed to delivering quality results on time.',
       rating: 5
     }
   ];
