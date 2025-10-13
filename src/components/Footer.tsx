@@ -89,7 +89,8 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-green-200 dark:border-gray-700">
-          <p className="text-center text-slate-500 dark:text-gray-400">
+          <p className="text-center text-slate-500 dark:text-gray-400" style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
+            <img src="asserts\3S_logo.png" alt="" height={"150px"} width={"150px"} />
             © {currentYear} Sarvesh Software Solution. All rights reserved.
           </p>
         </div>
