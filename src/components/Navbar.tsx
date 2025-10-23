@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import logo from "../assets/3S_logo.png";
+
 
 interface NavbarProps {
   darkMode: boolean;
@@ -26,7 +28,8 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <img src="asserts\3S_logo.png" alt="" height={"70px"} width={"70px"} style={{marginRight:"-150px"}} />
+          <img src={logo} alt="3S Logo" height="70px" width="70px" style={{ marginRight: "-15px" }} />
+
           <Link to="/" className="flex items-center">
             <motion.div
               whileHover={{ scale: 1.05 }}

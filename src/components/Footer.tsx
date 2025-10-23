@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
+import logo from "../assets/3S_logo.png";
+
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -90,7 +92,9 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 pt-8 border-t border-green-200 dark:border-gray-700">
           <p className="text-center text-slate-500 dark:text-gray-400" style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
-            <img src="asserts\3S_logo.png" alt="" height={"150px"} width={"150px"} />
+            {/* <img src="asserts\3S_logo.png" alt="" height={"150px"} width={"150px"} /> */}
+            <img src={logo} alt="3S Logo" height="150px" width="150px"/>
+
             © {currentYear} Sarvesh Software Solution. All rights reserved.
           </p>
         </div>
